@@ -1,20 +1,21 @@
 # Dialog
 Tổng Hợp Các Dạng Dialog 
 [Link Code](https://github.com/trantronghien/Dialog/blob/master/app/src/main/java/com/it85/hientran/dialog/MainActivity.java)
+
 ## Dialog Button
-![Dialog Button](https://cloud.githubusercontent.com/assets/13708331/17294496/7ba896f2-5821-11e6-977c-f66721aa39a4.png) 
-## Custom Dialog
-![Custom Dialog](https://cloud.githubusercontent.com/assets/13708331/17294559/dbba97f2-5821-11e6-8ffe-f36e514bd76e.png)
-## Radio Dialog
-![Radio Dialog](https://cloud.githubusercontent.com/assets/13708331/17294560/dbbbc92e-5821-11e6-8ed5-aad9e13c412e.png)
-## List Dialog
-![List Dialog](https://cloud.githubusercontent.com/assets/13708331/17294564/dbc08770-5821-11e6-940a-55503b3ce8a9.png)
+![dialog-button](https://cloud.githubusercontent.com/assets/13708331/17295531/c0a870a6-5826-11e6-969e-544b4c86efb9.png)
 ## Checkbox Dialog
-![Checkbox Dialog](https://cloud.githubusercontent.com/assets/13708331/17294561/dbbc03a8-5821-11e6-9825-792f23dbbd7d.png)
+![checkbox-dialog](https://cloud.githubusercontent.com/assets/13708331/17295527/c05d0d8c-5826-11e6-85f3-713a82c7dc6b.png)
 ## Prgress Dialog
-![Prgress Dialog](https://cloud.githubusercontent.com/assets/13708331/17294563/dbbc7eb4-5821-11e6-81cd-6a8445c24cc1.png)
+![prgress-dialog](https://cloud.githubusercontent.com/assets/13708331/17295528/c098c980-5826-11e6-9267-32a0eec60e39.png)
 ## Progress Bar Dialog
-![Progress Bar Dialog](https://cloud.githubusercontent.com/assets/13708331/17294562/dbbc51fa-5821-11e6-84b3-d098534cb963.png)
+![progress-bar-dialog](https://cloud.githubusercontent.com/assets/13708331/17295532/c0a8b296-5826-11e6-91e9-7579662b770d.png)
+## Custom Dialog
+![custom-dialog](https://cloud.githubusercontent.com/assets/13708331/17295529/c0a6eff6-5826-11e6-899f-c102a72b3385.png)
+## Radio Dialog
+![radio-dialog](https://cloud.githubusercontent.com/assets/13708331/17295530/c0a6fe6a-5826-11e6-8302-98c5d3ed23c4.png)
+## List Dialog
+![list-dialog](https://cloud.githubusercontent.com/assets/13708331/17295533/c0a92690-5826-11e6-88b5-065e17b58115.png)
 
 
 
