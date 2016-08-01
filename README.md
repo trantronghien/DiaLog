@@ -1,5 +1,6 @@
 # Dialog
 Tổng Hợp Các Dạng Dialog 
+[Link Code](https://github.com/trantronghien/Dialog/blob/master/app/src/main/java/com/it85/hientran/dialog/MainActivity.java)
 ## Dialog Button
 ![Dialog Button](https://cloud.githubusercontent.com/assets/13708331/17294496/7ba896f2-5821-11e6-977c-f66721aa39a4.png) 
 ## Custom Dialog
@@ -16,6 +17,6 @@ Tổng Hợp Các Dạng Dialog
 ![Progress Bar Dialog](https://cloud.githubusercontent.com/assets/13708331/17294562/dbbc51fa-5821-11e6-84b3-d098534cb963.png)
 
 
-[Link Code](https://github.com/trantronghien/Dialog/blob/master/app/src/main/java/com/it85/hientran/dialog/MainActivity.java)
+
 
 
