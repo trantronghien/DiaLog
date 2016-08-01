@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imgAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/delete_icon_16x16"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:text="Customdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:textColor="#FFFF00"
+        android:textSize="20dp"
+        android:layout_weight="0.21" />
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Types of Dialog"
+        android:textColor="#FFFF00"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnButtonDialog"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Button Dialog" />
+
+            <Button
+                android:id="@+id/btnListDialog"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="List Dialog" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnRadioDialog"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Radio Dialog" />
+
+            <Button
+                android:id="@+id/btnCheckboxDialog"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="CheckBox Dialog" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnProgressDialog"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Progress Dialog" />
+
+            <Button
+                android:id="@+id/btnProgressBar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Progress Bar" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnCustomDialog"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Custom Dialog" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/txtDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Click the Button!"
+            android:textColor="#FFD74A"
+            android:textSize="20sp" />
+    </TableLayout>
+</LinearLayout>
+
