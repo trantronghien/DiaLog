@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
-    Button buttonDialog,listDialog,radioDialog,checkboxDialog,progressDialog,progressBar,customDialog;
+    Button buttonDialog, listDialog, radioDialog, checkboxDialog ,progressDialog ,progressBar ,customDialog;
     TextView txtDisplay;
 
     @Override
@@ -56,7 +56,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         switch(v.getId())
         {
             case R.id.btnButtonDialog:
-
                 txtDisplay.setText("");
                 //Bạn có thể lược bỏ phần nào trong Dialog mà bạn thích: Tile, Message...
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -87,6 +86,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 builder.show();//Hiển thị Dialog
                 break;
 
+            // list Dialog 
             case R.id.btnListDialog:
 
                 txtDisplay.setText("");
@@ -102,7 +102,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 });
                 builder1.show();
                 break;
-
+            // radio Dialog
             case R.id.btnRadioDialog:
                 txtDisplay.setText("");
                 AlertDialog.Builder builder2 = new AlertDialog.Builder(this);
@@ -122,7 +122,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
                 builder2.show();
                 break;
-
+          // check Dialog
             case R.id.btnCheckboxDialog:
                 txtDisplay.setText("");
                 AlertDialog.Builder builder3 = new AlertDialog.Builder(this);
@@ -138,7 +138,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
                 builder3.show();
                 break;
-
+            // Progress Dialog 
             case R.id.btnProgressDialog:
                 //true: Có cho cancel Dialog
                 //false: indeterminate (Vô hạn)
@@ -152,7 +152,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 });
                 progressDialog.show();
                 break;
-
+            // ProgressBar Dialog  
             case R.id.btnProgressBar:
 
                 final ProgressDialog progressDialog1;
@@ -190,7 +190,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     }
                 }).start();
                 break;
-
+            // Custom 
             case R.id.btnCustomDialog:
 
                 Dialog dialog = new Dialog(MainActivity.this);
